@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: black;
+    background-image: url(galaxy.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 657px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+h1{
+    color: yellow;
+    text-align: center;
+    font-family: system-ui;
+   animation-delay: 0s;
+    animation-name: style;
+   animation-play-state: running;
+   animation-iteration-count: infinite;
+   position: relative;
+   animation-duration: 4s;
+   font-size: 55px;
+  
+}
+#h1{
+    color: yellow;
+   font-weight: bolder;
+   text-align: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+   animation-name: styl;
+   animation-duration: 2s;
+  
+   animation-iteration-count: infinite;
+    text-decoration: aqua;
+    animation-play-state: running;
+   
+    
+   
+}
+#h3{
+    color: yellow;
+   font-weight: bolder;
+   text-align: center;
+   font-family: 'Segoe UI';
+   animation-name: styl;
+   animation-duration: 2s;
+  font-size: 50px;
+   animation-iteration-count: infinite;
+   
+    animation-play-state: running;
+   
+    
+   
+}
+@keyframes style {
+    0%{
+        color: rgb(18, 1, 255);
+        
+    }
+    20%{
+        color: rgb(255, 251, 0);
+      
+    }
+    50%{
+        color: rgb(243, 7, 7);
+       
+    }
+    78%{
+        color: rgb(255, 196, 2);
+       
+    }
+    100%{
+        color: rgb(8, 243, 8);
+        
+    }
+}
+
+@keyframes styl {
+    0%{
+        color: antiquewhite;
+        
+    }
+    20%{
+        color: rgb(43, 255, 0);
+        
+    }
+    50%{
+        color: rgb(255, 169, 9);
+        
+    }
+    78%{
+        color: rgb(255, 19, 223);
+    
+    }
+    100%{
+        color: rgb(255, 238, 0);
+        
+        
+    }
+    
+}
+p{
+    color: yellow;
+    font-size: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+   
+}
+#name{
+    margin: 10px;
+    background-color: rgba(97, 91, 91, 0.425);
+   
+    color: rgb(255, 238, 0);
+    width: 195px;
+    font-size: inherit;
+}
+#wish{
+ height: 200px;
+ width: 200px;
+ background-color: rgba(44, 42, 42, 0.603);
+ color: rgb(255, 238, 0);
+font-size: larger;
+}
+button{
+   color: rgb(111, 0, 255);
+   font-size: larger;
+ 
+}
+::placeholder{
+    color: yellow;
+    
+}
+#img_1{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+  
+   width: -webkit-fill-available;
+
+  
+}
+#img_2{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 313px;
+   position: absolute;
+   margin-top: -253px;
+}
+#img-3{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+  
+   width: -webkit-fill-available;
+    height: auto;
+    position: absolute;
+}
+#img-4{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 313px;
+   margin-top: -253px;
+   position: absolute;
+  height: 200px;
+}
+#img-5{
+    
+   
+     display: none;
+    position: relative;
+    width: -webkit-fill-available;
+    margin-left: auto;
+    margin-right: auto;
+    height: 341px;
+    margin-top: -30px;
+}
+
+
+ #audio{
+    padding: 23px;
+    height: 35px;
+ }
+
+
+span{
+    
+    color: chartreuse;
+    font-family: system-ui;
+}
+#h4 {
+     display: none;
+    text-align: center;
+    color: chartreuse;
+    
+}
+#share{
+
+    position: absolute;
+    color: green;
+}
+footer{
+   
+    background-color: rgb(201, 186, 186);
+   
+    text-align: center;
+    margin-top: 35px;
+}
