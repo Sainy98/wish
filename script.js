@@ -1,5 +1,5 @@
-//var name = prompt()
-  // document.getElementById("h1").innerHTML= name;
+var name = prompt()
+  document.getElementById("h1").innerHTML= name;
  
      const scriptURL = 'https://script.google.com/macros/s/AKfycbxPRJ7FAx6rP_iFZ9_Ik_fvJ28FaiW_TMY_-LJl-3bW6SRcBPAJ17wKLNKkj8XegQZJ/exec'
      const form = document.forms['hello']
@@ -19,9 +19,9 @@
  
  
  
- var countDownDate = new Date("Dec 15, 2021 20:30:00").getTime();
+ var countDownDate = new Date("jan 1, 2022 00:00:00").getTime();
  
- // Update the count down every 1 second
+ //Update the count down every 1 second
  var x = setInterval(function() {
  
  // Get today's date and time
