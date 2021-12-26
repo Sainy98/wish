@@ -1,5 +1,5 @@
-var name = prompt()
-  document.getElementById("h1").innerHTML= name;
+var name = prompt("hello are you ready for new year party!!! please enter your name !!")
+  document.getElementById("h1").innerHTML= "hello " +name + " enjoy the new year virtual party!!";
  
      const scriptURL = 'https://script.google.com/macros/s/AKfycbxPRJ7FAx6rP_iFZ9_Ik_fvJ28FaiW_TMY_-LJl-3bW6SRcBPAJ17wKLNKkj8XegQZJ/exec'
      const form = document.forms['hello']
@@ -7,7 +7,7 @@ var name = prompt()
 
    e.preventDefault()
      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-       .then(response => alert("submitted") )
+       .then(response => alert("your wish is collected") )
        .catch(error => console.error('Error!', error.message))
  
        
@@ -19,7 +19,7 @@ var name = prompt()
  
  
  
- var countDownDate = new Date("jan 1, 2022 00:00:00").getTime();
+ var countDownDate = new Date("dec 26, 2021 17:10:00").getTime();
  
  //Update the count down every 1 second
  var x = setInterval(function() {
@@ -46,7 +46,7 @@ var name = prompt()
  
  
  if (distance < 0) {
-     document.getElementById("h3").innerHTML= "";
+     document.getElementById("h3").innerHTML= "happy new year " + name;
  
      clearInterval(x);
   
