@@ -7,7 +7,7 @@ var name = prompt("hello are you ready for new year party!!! please enter your n
 
    e.preventDefault()
      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-       .then(response => alert("your wish is collected") )
+       .then(response => alert( name +" God bless your wish come true soon") )
        .catch(error => console.error('Error!', error.message))
  
        
